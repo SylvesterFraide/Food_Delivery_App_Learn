@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="app">
       <Navbar
+        mylogo="MyLogo"
         home="Home"
         menu="Menu"
         mobileApp="Mobile App"
