@@ -1,7 +1,7 @@
 .header {
     height: 34vw;
     margin: 30px auto;
-    background: url('/public/header.avif') no-repeat;
+    background: url('/header.avif') no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -15,6 +15,7 @@
   max-width: 50%;
   bottom: 10%;
   left: 6vw;
+  animation: fadeIn 3s;
 }
 
 .header-contents h2 {
