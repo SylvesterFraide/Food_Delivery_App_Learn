@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import SearchTwoToneIcon from "@mui/icons-material/SearchTwoTone";
 import ShoppingBasketTwoToneIcon from "@mui/icons-material/ShoppingBasketTwoTone";
-
+import logo from '../../assets/log1.avif';
 const Navbar = ({ mylogo, home, menu, mobileApp, contactUs, signIn }) => {
   const [activeMenu, setActiveMenu] = useState("home");
   return (
     <div className="navbar">
-      <h3 className="logo">{mylogo}</h3>
+      {/* <h3 className="logo">{mylogo}</h3> */}
+      <img src={logo} alt="Logo" />
       <ul className="navbar-menu">
         <li
           className={activeMenu === "home" ? "active" : ""}
