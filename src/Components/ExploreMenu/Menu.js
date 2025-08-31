@@ -8,6 +8,39 @@ import salad from '../../assets/Menu/salad.avif';
 import sandwich from '../../assets/Menu/sandwich.avif';
 import veg from '../../assets/Menu/veg.avif';
 
+import bread_sandwich from '../../assets/ListItem/bread_sandwich.jpg';
+import butter_noodles from '../../assets/ListItem/butter_noodles.jpg';
+import butter_scotch_cake from '../../assets/ListItem/butter_scotch_cake.webp';
+import cheese_pasta from '../../assets/ListItem/cheese_pasta.jpg';
+import chicken_pasta from '../../assets/ListItem/chicken_pasta.jpg';
+import chicken_salad from '../../assets/ListItem/chicken_salad.avif';
+import chicken_sandwich from '../../assets/ListItem/chicken_sandwich.webp';
+import chicken_rolls from '../../assets/ListItem/chicken_spring_rolls.jpg';
+import clover_salad from '../../assets/ListItem/clover_salad.avif';
+import cooked_noodles from '../../assets/ListItem/cooked_noodles.jpg';
+import creamy_pasta from '../../assets/ListItem/creamy_pasta.jpg';
+import cup_cake from '../../assets/ListItem/cup_cake.jpg';
+import fried_cauliflower from '../../assets/ListItem/fried_cauliflower.jpg';
+import fruit_ice_cream from '../../assets/ListItem/fruit_ice_cream.webp';
+import garlic_mashroom from '../../assets/ListItem/garlic_mashroom.jpg';
+import greek_salad from '../../assets/ListItem/greek_salad.jpg';
+import grilled_sandwich from '../../assets/ListItem/grilled_sandwich.avif';
+import jar_ice_cream from '../../assets/ListItem/jar_ice_cream.jpg';
+import lasagna_rolls from '../../assets/ListItem/lasagna_rolls.jpg';
+import mix_veg_pulau from '../../assets/ListItem/mix_veg_pulau.jpg';
+import peri_peri_rolls from '../../assets/ListItem/peri_peri_rolls.jpg';
+import rice_zucchini from '../../assets/ListItem/rice_zucchini.jpg';
+import ripple_ice_cream from '../../assets/ListItem/ripple_ice_cream.webp';
+import sliced_cake from '../../assets/ListItem/sliced_cake.webp';
+import somen_noodles from '../../assets/ListItem/somen_noodles.jpg';
+import tomato_pasta from '../../assets/ListItem/tomato_pasta.jpg';
+import vanilla_ice_cream from '../../assets/ListItem/vanilla_ice_cream.webp';
+import veg_noodles from '../../assets/ListItem/veg_noodles.jpg';
+import veg_roll from '../../assets/ListItem/veg_roll.jpg';
+import veg_salad from '../../assets/ListItem/veg_salad.jpg';
+import vegan_cake from '../../assets/ListItem/vegan_cake.jpg';
+import vegan_sandwich from '../../assets/ListItem/vegan_sandwich.avif';
+
 export const MenuList = [
   {
     name: "Cake",
@@ -95,7 +128,7 @@ export const Menu_List = [
   {
     id:7,
     name: 'Chicken Rolls',
-    description: 'Delicious chicken filling wrapped in a crispy roll',
+    description: 'Home-made Chicken Spring Rolls filled with chicken mince and vegetables!',
     price: 5.49,
     image: chicken_rolls,
   },
@@ -103,15 +136,15 @@ export const Menu_List = [
   { 
     id:8,
     name: 'Veg Rolls',
-    description: 'Crispy rolls filled with mixed vegetables',
+    description: 'Veg rolls made with whole wheat flour and mixed veggies, makes for a great meal for kids',
     price: 4,
-    image: veg_rolls,
+    image: veg_roll,
   },
 
   {
     id: 9,
     name: 'Ripple Ice Cream',
-    description: 'Creamy ice cream with a ripple of chocolate sauce',
+    description: 'This is a must for summer - rich custard ice cream can only be improved by sharp raspberry sauce',
     price: 3.49,
     image: ripple_ice_cream,
   },
@@ -127,7 +160,7 @@ export const Menu_List = [
   {
     id: 11,
     name: 'Jar Ice Cream',
-    description: 'Delicious ice cream served in a jar',
+    description: 'No ice cream machine? No problem! Mason jar ice cream is the easiest, fastest way to make the exact',
     price: 6,
     image: jar_ice_cream,
   },
@@ -183,7 +216,7 @@ export const Menu_List = [
   {
     id: 18,
     name: 'Vegan Sandwich',
-    description: 'A delicious sandwich filled with fresh vegetables and vegan spread',
+    description: 'The best veggie sandwich bursts with color, flavor, and texture. It\'s filling, refreshing, and perfect for any meal!',
     price: 7.50,
     image: vegan_sandwich,
   },
@@ -191,7 +224,7 @@ export const Menu_List = [
   {
     id: 19,
     name: 'Grilled Sandwich',
-    description: 'A delicious sandwich filled with grilled vegetables and pesto sauce',
+    description: 'Grilled sandwich are a popular street food all over the world. These Mumbai style grilled sandwiches',
     price: 8.50,
     image: grilled_sandwich,
   },
@@ -199,13 +232,13 @@ export const Menu_List = [
   {
     id: 20,
     name: 'Bread Sandwich',
-    description: 'A delicious sandwich filled with fresh bread and a variety of fillings',
+    description: 'Made with all of the ingredients that make homemade white bread superior to storebought — butter',
     price: 6,
     image: bread_sandwich,
   },
 
   {
-    id: 22,
+    id: 21,
     name: 'Cup Cake',
     description: 'A delicious cupcake with a rich frosting',
     price: 2.50,
@@ -213,15 +246,15 @@ export const Menu_List = [
   },
 
   {
-    id: 23,
+    id: 22,
     name: 'Vegan Cake',
-    description: 'A delicious vegan cake made with plant-based ingredients',
+    description: 'Light fluffy and delicious vegan vanilla cake! Two layers of vanilla sponge, topped with a velvety vegan buttercream.',
     price: 10,
     image: vegan_cake,
   },
 
   {
-    id: 24,
+    id: 23,
     name: 'ButterScotch Cake',
     description: 'A rich and creamy butter scotch cake',
     price: 11,
@@ -229,7 +262,7 @@ export const Menu_List = [
   },
 
   {
-    id: 25,
+    id: 24,
     name: 'Sliced Cake',
     description: 'A delicious cake served in slices',
     price: 9,
@@ -237,23 +270,23 @@ export const Menu_List = [
   },
 
   {
-    id: 26,
+    id: 25,
     name: 'Butter Noodles',
-    description: 'Delicious buttered noodles with a hint of garlic',
+    description: 'Buttered noodles are simple to make with your favorite pasta, butter, Parmesan cheese, salt, and pepper for a quick and easy, kid-friendly dish.',
     price: 8,
     image: butter_noodles,
   },
 
   {
-    id: 27,
+    id: 26,
     name: 'Veg Noodles',
-    description: 'Delicious noodles stir-fried with mixed vegetables',
+    description: 'Super quick & delicious veg noodles made with lots of fresh vegetables, tossed in a savory sauce.',
     price: 4,
     image: veg_noodles,
   },
 
   {
-    id: 29,
+    id: 27,
     name: 'Somen Noodles',
     description: 'Delicate noodles served in a light broth',
     price: 5.20,
@@ -261,41 +294,41 @@ export const Menu_List = [
   },
 
   {
-    id: 30,
+    id: 28,
     name: 'Cooked Noodles',
-    description: 'Noodles cooked to perfection with a blend of spices',
+    description: 'This version of soy sauce noodles, an iconic Cantonese dish commonly enjoyed for breakfast or lunch at dim sum, is hearty enough for dinner, too.',
     price: 8,
     image: cooked_noodles,
   },
 
   {
-    id: 31,
+    id: 29,
     name: 'Cheese Pasta',
-    description: 'Creamy pasta with a rich cheese sauce',
+    description: 'This Cheese Pasta recipe has savory pasta smothered in the most delicious broccoli cheese sauce!',
     price: 12.50,
     image: cheese_pasta,
   },
 
   {
-    id: 32,
+    id: 30,
     name: 'Tomato Pasta',
-    description: 'Pasta with a rich tomato sauce',
+    description: 'Pasta with a rich tomato sauceAn easy and delicious Creamy Tomato Pasta. Tomatoes mixed with mascarpone cheese, salty pancetta, shallots and a pinch of chilli flakes for a little heat.',
     price: 13,
     image: tomato_pasta,
   },
 
   {
-    id: 33,
+    id: 31,
     name: 'Creamy Pasta',
-    description: 'Pasta with a creamy sauce',
+    description: 'Looking for creamy pasta? Look no further. This is the best, with garlic, cream, and Parmesan cheese.',
     price: 12,
     image: creamy_pasta,
   },
 
   {
-    id: 34,
+    id: 32,
     name: 'Chicken Pasta',
-    description: 'Pasta with grilled chicken and a creamy sauce',
+    description: 'Creamy and delicious cheesy chicken pasta, with juicy chicken and a creamy yet lighter cheddar sauce.',
     price: 14,
     image: chicken_pasta,
   }
