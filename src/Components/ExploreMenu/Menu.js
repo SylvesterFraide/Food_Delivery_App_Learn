@@ -81,7 +81,7 @@ export const Food_List = [
     id: 1,
     name: "Garlic Mashroom",
     description:
-      "Delicious garlic flavored mushrooms, served as a side dish, on toast or in pasta",
+      "Delicious garlic flavored, served as a side dish, on toast or in pasta",
     price: 13.99,
     image: garlic_mashroom,
     category: "Desert",
@@ -147,7 +147,7 @@ export const Food_List = [
     id: 8,
     name: "Veg Rolls",
     description:
-      "Veg rolls made with whole wheat flour and mixed veggies, makes for a great meal for kids",
+      "Made with whole wheat flour and mixed veggies, makes for a great meal for kids",
     price: 14,
     image: veg_roll,
     category: "Rolls",
@@ -157,7 +157,7 @@ export const Food_List = [
     id: 9,
     name: "Ripple Ice Cream",
     description:
-      "This is a must for summer - rich custard ice cream can only be improved by sharp raspberry sauce",
+      "Rich custard ice cream can only be improved by sharp raspberry sauce",
     price: 23.49,
     image: ripple_ice_cream,
     category: "Pure Veg",
@@ -176,7 +176,7 @@ export const Food_List = [
     id: 11,
     name: "Jar Ice Cream",
     description:
-      "No ice cream machine? No problem! Mason jar ice cream is the easiest, fastest way to make the exact",
+      "Mason jar ice cream is the easiest, fastest way to make the exact",
     price: 16,
     image: jar_ice_cream,
     category: "Pure Veg",
@@ -245,7 +245,7 @@ export const Food_List = [
     id: 18,
     name: "Vegan Sandwich",
     description:
-      "The best veggie sandwich bursts with color, flavor, and texture. It's filling, refreshing, and perfect for any meal!",
+      "The best veggie sandwich bursts with color, flavor, and texture.",
     price: 17.5,
     image: vegan_sandwich,
     category: "Sandwich",
@@ -255,7 +255,7 @@ export const Food_List = [
     id: 19,
     name: "Grilled Sandwich",
     description:
-      "Grilled sandwich are a popular street food all over the world. These Mumbai style grilled sandwiches",
+      "Popular street food all over the world. These Mumbai style grilled sandwiches",
     price: 18.5,
     image: grilled_sandwich,
     category: "Sandwich",
@@ -265,7 +265,7 @@ export const Food_List = [
     id: 20,
     name: "Bread Sandwich",
     description:
-      "Made with all of the ingredients that make homemade white bread superior to storebought — butter",
+      "Made with ingredients that make homemade white bread superior to storebought — butter",
     price: 16,
     image: bread_sandwich,
     category: "Sandwich",
@@ -284,7 +284,7 @@ export const Food_List = [
     id: 22,
     name: "Vegan Cake",
     description:
-      "Light fluffy and delicious vegan vanilla cake! Two layers of vanilla sponge, topped with a velvety vegan buttercream.",
+      "Two layers of vanilla sponge, topped with a velvety vegan buttercream.",
     price: 10,
     image: vegan_cake,
     category: "Cake",
@@ -312,7 +312,7 @@ export const Food_List = [
     id: 25,
     name: "Butter Noodles",
     description:
-      "Buttered noodles are simple to make with your favorite pasta, butter, Parmesan cheese, salt, and pepper for a quick and easy, kid-friendly dish.",
+      "Buttered noodles with your favorite pasta, butter, Parmesan cheese, salt, and pepper",
     price: 18,
     image: butter_noodles,
     category: "Noodles",
@@ -322,7 +322,7 @@ export const Food_List = [
     id: 26,
     name: "Veg Noodles",
     description:
-      "Super quick & delicious veg noodles made with lots of fresh vegetables, tossed in a savory sauce.",
+      "Super quick & delicious veg noodles made with lots of fresh vegetables",
     price: 24,
     image: veg_noodles,
     category: "Noodles",
@@ -341,7 +341,7 @@ export const Food_List = [
     id: 28,
     name: "Cooked Noodles",
     description:
-      "This version of soy sauce noodles, an iconic Cantonese dish commonly enjoyed for breakfast or lunch at dim sum, is hearty enough for dinner, too.",
+      "Commonly enjoyed for breakfast, lunch, and dinner",
     price: 18,
     image: cooked_noodles,
     category: "Noodles",
@@ -351,7 +351,7 @@ export const Food_List = [
     id: 29,
     name: "Cheese Pasta",
     description:
-      "This Cheese Pasta recipe has savory pasta smothered in the most delicious broccoli cheese sauce!",
+      "This Cheese Pasta is the most delicious broccoli cheese sauce!",
     price: 12.5,
     image: cheese_pasta,
     category: "Pasta",
@@ -361,7 +361,7 @@ export const Food_List = [
     id: 30,
     name: "Tomato Pasta",
     description:
-      "Pasta with a rich tomato sauceAn easy and delicious Creamy Tomato Pasta. Tomatoes mixed with mascarpone cheese, salty pancetta, shallots and a pinch of chilli flakes for a little heat.",
+      "Rich tomato sauceAn easy and delicious Creamy Tomato Pasta.",
     price: 13,
     image: tomato_pasta,
     category: "Pasta",
@@ -371,7 +371,7 @@ export const Food_List = [
     id: 31,
     name: "Creamy Pasta",
     description:
-      "Looking for creamy pasta? Look no further. This is the best, with garlic, cream, and Parmesan cheese.",
+      "This is the best, with garlic, cream, and Parmesan cheese.",
     price: 12,
     image: creamy_pasta,
     category: "Pasta",
@@ -381,7 +381,7 @@ export const Food_List = [
     id: 32,
     name: "Chicken Pasta",
     description:
-      "Creamy and delicious cheesy chicken pasta, with juicy chicken and a creamy yet lighter cheddar sauce.",
+      "Delicious with juicy chicken and a creamy yet lighter cheddar sauce.",
     price: 14,
     image: chicken_pasta,
     category: "Pasta",
