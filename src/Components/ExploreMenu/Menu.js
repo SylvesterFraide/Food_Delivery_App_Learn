@@ -21,7 +21,7 @@ import cooked_noodles from "../../assets/ListItem/cooked_noodles.jpg";
 import creamy_pasta from "../../assets/ListItem/creamy_pasta.jpg";
 import cup_cake from "../../assets/ListItem/cup_cake.jpg";
 import fried_cauliflower from "../../assets/ListItem/fried_cauliflower.jpg";
-import fruit_ice_cream from "../../assets/ListItem/fruit_ice_cream.webp";
+import fruit_ice_cream from "../../assets/ListItem/Fruit_Ice _Cream.avif";
 import garlic_mashroom from "../../assets/ListItem/garlic_mashroom.jpg";
 import greek_salad from "../../assets/ListItem/greek_salad.jpg";
 import grilled_sandwich from "../../assets/ListItem/grilled_sandwich.avif";
