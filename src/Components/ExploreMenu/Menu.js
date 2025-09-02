@@ -160,7 +160,7 @@ export const Food_List = [
       "Rich custard ice cream can only be improved by sharp raspberry sauce",
     price: 23.49,
     image: ripple_ice_cream,
-    category: "Pure Veg",
+    category: "Pure veg",
   },
 
   {
@@ -169,7 +169,7 @@ export const Food_List = [
     description: "Refreshing ice cream made with real fruit",
     price: 23,
     image: fruit_ice_cream,
-    category: "Pure Veg",
+    category: "Pure veg",
   },
 
   {
@@ -179,7 +179,7 @@ export const Food_List = [
       "Mason jar ice cream is the easiest, fastest way to make the exact",
     price: 16,
     image: jar_ice_cream,
-    category: "Pure Veg",
+    category: "Pure veg",
   },
 
   {
@@ -188,7 +188,7 @@ export const Food_List = [
     description: "Classic vanilla ice cream made with real vanilla beans",
     price: 29,
     image: vanilla_ice_cream,
-    category: "Pure Veg",
+    category: "Pure veg",
   },
 
   {
@@ -312,10 +312,10 @@ export const Food_List = [
     id: 25,
     name: "Butter Noodles",
     description:
-      "Buttered noodles with your favorite pasta, butter, Parmesan cheese, salt, and pepper",
+      "Noodles with butter, Parmesan cheese, salt, and pepper",
     price: 18,
     image: butter_noodles,
-    category: "Noodles",
+    category: "Noodle",
   },
 
   {
@@ -325,7 +325,7 @@ export const Food_List = [
       "Super quick & delicious veg noodles made with lots of fresh vegetables",
     price: 24,
     image: veg_noodles,
-    category: "Noodles",
+    category: "Noodle",
   },
 
   {
@@ -334,7 +334,7 @@ export const Food_List = [
     description: "Delicate noodles served in a light broth",
     price: 5.2,
     image: somen_noodles,
-    category: "Noodles",
+    category: "Noodle",
   },
 
   {
@@ -344,7 +344,7 @@ export const Food_List = [
       "Commonly enjoyed for breakfast, lunch, and dinner",
     price: 18,
     image: cooked_noodles,
-    category: "Noodles",
+    category: "Noodle",
   },
 
   {
