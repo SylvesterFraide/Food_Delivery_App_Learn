@@ -3,37 +3,43 @@ import "./Navbar.css";
 import SearchTwoToneIcon from "@mui/icons-material/SearchTwoTone";
 import ShoppingBasketTwoToneIcon from "@mui/icons-material/ShoppingBasketTwoTone";
 import logo from '../../assets/log1.avif';
-const Navbar = ({ mylogo, home, menu, mobileApp, contactUs, signIn }) => {
+import { Link } from "react-router-dom";
+
+const Navbar = ({ setShowLogin, home, menu, mobileApp, contactUs, signIn }) => {
   const [activeMenu, setActiveMenu] = useState("home");
   return (
     <div className="navbar">
       {/* <h3 className="logo">{mylogo}</h3> */}
       <img src={logo} alt="Logo" />
       <ul className="navbar-menu">
-        <li
+        <Link
+          to="/"
           className={activeMenu === "home" ? "active" : ""}
           onClick={() => setActiveMenu("home")}
         >
           {home}
-        </li>
-        <li
+        </Link>
+        <a
+          href="#explore-menu"
           className={activeMenu === "menu" ? "active" : ""}
           onClick={() => setActiveMenu("menu")}
         >
           {menu}
-        </li>
-        <li
+        </a>
+        <a
+          href="#app-download"
           className={activeMenu === "mobileApp" ? "active" : ""}
           onClick={() => setActiveMenu("mobileApp")}
         >
           {mobileApp}
-        </li>
-        <li
+        </a>
+        <a
+          href="#footer"
           className={activeMenu === "contactUs" ? "active" : ""}
           onClick={() => setActiveMenu("contactUs")}
         >
           {contactUs}
-        </li>
+        </a>
       </ul>
       <div className="navbar-right">
         <SearchTwoToneIcon />
@@ -41,7 +47,7 @@ const Navbar = ({ mylogo, home, menu, mobileApp, contactUs, signIn }) => {
           <ShoppingBasketTwoToneIcon />
           <div className="dot"></div>
         </div>
-        <button>{signIn}</button>
+        <button onClick={() => setShowLogin(true)}>{signIn}</button>
       </div>
     </div>
   );
