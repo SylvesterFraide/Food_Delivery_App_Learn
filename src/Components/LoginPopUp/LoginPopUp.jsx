@@ -34,5 +34,4 @@ const LoginPopUp = ({ setShowLogin }) => {
     </div>
   );
 };
-
 export default LoginPopUp;
