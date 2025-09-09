@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import SearchTwoToneIcon from "@mui/icons-material/SearchTwoTone";
 import ShoppingBasketTwoToneIcon from "@mui/icons-material/ShoppingBasketTwoTone";
-import logo from '../../assets/log1.avif';
+import logo from "../../assets/log1.avif";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ setShowLogin, home, menu, mobileApp, contactUs, signIn }) => {
@@ -10,7 +10,9 @@ const Navbar = ({ setShowLogin, home, menu, mobileApp, contactUs, signIn }) => {
   return (
     <div className="navbar">
       {/* <h3 className="logo">{mylogo}</h3> */}
-      <img src={logo} alt="Logo" />
+      <Link to="/">
+        <img src={logo} alt="Logo" />
+      </Link>
       <ul className="navbar-menu">
         <Link
           to="/"
@@ -44,7 +46,10 @@ const Navbar = ({ setShowLogin, home, menu, mobileApp, contactUs, signIn }) => {
       <div className="navbar-right">
         <SearchTwoToneIcon />
         <div className="navbar-search-icon">
-          <ShoppingBasketTwoToneIcon />
+          <Link to="/cart">
+            {" "}
+            <ShoppingBasketTwoToneIcon />
+          </Link>
           <div className="dot"></div>
         </div>
         <button onClick={() => setShowLogin(true)}>{signIn}</button>
