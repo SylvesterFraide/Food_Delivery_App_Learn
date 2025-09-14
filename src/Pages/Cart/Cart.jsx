@@ -2,9 +2,12 @@ import React, { useContext } from "react";
 import "./Cart.css";
 import { StoreContext } from "../../Context/StoreContext";
 import CloseIcon from "@mui/icons-material/Close";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
+
   const { cartItems, removeFromCart, Food_List, getTotalCartAmount } = useContext(StoreContext);
+  const navigate = useNavigate();
 
   return (
     <div className="cart">
@@ -59,7 +62,7 @@ const Cart = () => {
               <p>${getTotalCartAmount() + 2}</p>
             </div>
           </div>
-          <button>PROCEED TO CHECKOUT</button>
+          <button onClick={() => navigate('/place-order')} >PROCEED TO CHECKOUT</button>
         </div>
         <div className="cart-promocode">
           <div>
