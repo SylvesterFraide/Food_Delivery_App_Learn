@@ -11,7 +11,10 @@ const Header = () => {
           crafted with the finest ingredients and culinary expertise. Our
           mission is to satisy your cravings and elevate your dining experience.
         </p>
-        <button>View Menu</button>
+        <a href="#explore-menu">
+          {" "}
+          <button>View Menu</button>
+        </a>
       </div>
     </div>
   );

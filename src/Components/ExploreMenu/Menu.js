@@ -1,4 +1,3 @@
-import { Category, Description } from "@mui/icons-material";
 import cake from "../../assets/Menu/cake.avif";
 import desert from "../../assets/Menu/desert.avif";
 import noodle from "../../assets/Menu/noodle.avif";
@@ -311,8 +310,7 @@ export const Food_List = [
   {
     id: 25,
     name: "Butter Noodles",
-    description:
-      "Noodles with butter, Parmesan cheese, salt, and pepper",
+    description: "Noodles with butter, Parmesan cheese, salt, and pepper",
     price: 18,
     image: butter_noodles,
     category: "Noodle",
@@ -340,8 +338,7 @@ export const Food_List = [
   {
     id: 28,
     name: "Cooked Noodles",
-    description:
-      "Commonly enjoyed for breakfast, lunch, and dinner",
+    description: "Commonly enjoyed for breakfast, lunch, and dinner",
     price: 18,
     image: cooked_noodles,
     category: "Noodle",
@@ -360,8 +357,7 @@ export const Food_List = [
   {
     id: 30,
     name: "Tomato Pasta",
-    description:
-      "Rich tomato sauceAn easy and delicious Creamy Tomato Pasta.",
+    description: "Rich tomato sauceAn easy and delicious Creamy Tomato Pasta.",
     price: 13,
     image: tomato_pasta,
     category: "Pasta",
@@ -370,8 +366,7 @@ export const Food_List = [
   {
     id: 31,
     name: "Creamy Pasta",
-    description:
-      "This is the best, with garlic, cream, and Parmesan cheese.",
+    description: "This is the best, with garlic, cream, and Parmesan cheese.",
     price: 12,
     image: creamy_pasta,
     category: "Pasta",

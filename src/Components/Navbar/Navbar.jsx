@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import SearchTwoToneIcon from "@mui/icons-material/SearchTwoTone";
 import ShoppingBasketTwoToneIcon from "@mui/icons-material/ShoppingBasketTwoTone";
 import logo from "../../assets/log1.avif";
 import { Link } from "react-router-dom";
+import { StoreContext } from "../../Context/StoreContext";
 
 const Navbar = ({ setShowLogin, home, menu, mobileApp, contactUs, signIn }) => {
+
   const [activeMenu, setActiveMenu] = useState("home");
+  const { getTotalCartAmount } = useContext(StoreContext);
+
   return (
     <div className="navbar">
       {/* <h3 className="logo">{mylogo}</h3> */}
@@ -50,7 +54,7 @@ const Navbar = ({ setShowLogin, home, menu, mobileApp, contactUs, signIn }) => {
             {" "}
             <ShoppingBasketTwoToneIcon />
           </Link>
-          <div className="dot"></div>
+          <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
         </div>
         <button onClick={() => setShowLogin(true)}>{signIn}</button>
       </div>

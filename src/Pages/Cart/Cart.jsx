@@ -4,7 +4,7 @@ import { StoreContext } from "../../Context/StoreContext";
 import CloseIcon from "@mui/icons-material/Close";
 
 const Cart = () => {
-  const { cartItems, removeFromCart, Food_List } = useContext(StoreContext);
+  const { cartItems, removeFromCart, Food_List, getTotalCartAmount } = useContext(StoreContext);
 
   return (
     <div className="cart">
@@ -19,10 +19,10 @@ const Cart = () => {
         </div>
         <br />
         <hr />
-        {Food_List.map((item, index) => {
+        {Food_List.map((item) => {
           if (cartItems[item.id] > 0) {
             return (
-              <>
+              <div key={item.id}>
                 <div className="cart-items-title cart-items-items">
                   <img src={item.image} alt="" />
                   <p>{item.name}</p>
@@ -33,10 +33,9 @@ const Cart = () => {
                     className="close"
                     onClick={() => removeFromCart(item.id)}
                   />
-                  {/* <button onClick={() => removeFromCart(item.id)}>Remove</button> */}
                 </div>
                 <hr />
-              </>
+              </div>
             );
           }
         })}
@@ -47,17 +46,17 @@ const Cart = () => {
           <div>
             <div className="cart-total-details">
               <p>Subtotal</p>
-              <p>{0}</p>
+              <p>${getTotalCartAmount()}</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <p>Delivery Fee</p>
-              <p>{2}</p>
+              <p>$2</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <p>Total</p>
-              <p>{0}</p>
+              <p>${getTotalCartAmount() + 2}</p>
             </div>
           </div>
           <button>PROCEED TO CHECKOUT</button>
